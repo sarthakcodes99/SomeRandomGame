@@ -1,8 +1,4 @@
-function createID(){
-    let id = 0;
-    id++;
-    return id
-}
-let myID = createID()
-console.log(myID);
-console.log(myID);
+let input = document.querySelector("#input");
+input.addEventListener('change', function(){
+    document.body.style.backgroundColor = input.value
+})
